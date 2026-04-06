@@ -38,7 +38,7 @@ jobs:
       - name: Checkout Infrastructure Repo
         uses: actions/checkout@v3
         with:
-          repository: mkbntech/infra-repo
+          repository: Jyothsna-99/infra-repo
           token: ${{ secrets.INFRA_REPO_TOKEN }}
           path: infra-repo
 
